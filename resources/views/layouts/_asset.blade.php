@@ -1,0 +1,19 @@
+<link href="{{ asset('/plugins/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/plugins/glyphicon-v1.0/style.css') }}" rel="stylesheet">
+<link href="{{ asset('plugins/select2/css/select2.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/plugins/icheck-bootstrap/icheck-bootstrap.css') }}" rel="stylesheet">
+<link href="{{ asset('/plugins/jqvmap/jqvmap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/plugins/daterangepicker/daterangepicker.css') }}" rel="stylesheet">
+<link href="{{ asset('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700') }}" rel="stylesheet">
+<link href="{{ asset('/dist/css/adminlte.min.css') }}" rel="stylesheet">
+<link href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.css') }}" rel="stylesheet">
+<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+
+<script type="text/javascript" src="{{ asset('/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/plugins/select2/js/select2.full.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/dist/js/adminlte.js') }}"></script>
+<script type="text/javascript" src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/app.js') }}"></script>

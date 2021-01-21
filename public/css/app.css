@@ -1,0 +1,152 @@
+.form-group.has-success input{
+    border-color: #28a745;
+    padding-right: 2.25rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center right calc(.375em + .1875rem);
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+.form-group.has-success .input-group-append .input-group-text{
+    border-color: #28a745;
+}
+.form-group.has-success input:active + .input-group-append .input-group-text{
+    border-color: #28a745;
+}
+.form-group.has-error input{
+    border-color: #dc3545;
+    padding-right: 2.25rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center right calc(.375em + .1875rem);
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+.form-group.has-error .input-group-append .input-group-text{
+    border-color: #dc3545;
+}
+.fa-white{
+    color: white;
+}
+.fa-18{
+    font-size: 18px;
+}
+.user-panel .image{
+    display: flex;
+    align-items: center;
+}
+.brand-link{
+    padding-left: 0.6rem;
+}
+.brand-link span{
+    margin-left: 10px;
+}
+.link-pointer{
+    cursor: pointer;
+}
+.card-header__beetwen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.link-green{
+    color: var(--success);
+}
+a.link-orange{
+    color: var(--orange);
+}
+.line-disable{
+    color: var(--gray);
+}
+.tab-content-form{
+    margin-top: 15px;
+}
+.help-block.help-block-error{
+    color: #dc3545;
+}
+.nav-item .nav-link p{
+    padding-left: 5px;
+}
+.select-full .select2{
+    width: 100% !important;
+}
+.card-content-item{
+    display: flex;
+    align-items: center;
+}
+.card-content-item .form-group{
+    flex: 0 0 35%;
+    margin-right: 10px;
+}
+.select2 {
+    width: 100% !important;
+}
+.select2-search__field{
+    background: none !important;
+}
+.card-header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-url-content button{
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+.cart-content-item{
+    display: flex;
+    align-items: center;
+}
+.cart-content-item .form-group{
+    flex: 0 0 35%;
+    margin-right: 10px;
+}
+.callout-result {
+    margin: 30px;
+}
+.order-number{
+    margin-left: 10px;;
+}
+.disabledTab {
+    pointer-events: none;
+}
+.disabledTab a {
+    color: #ccc;
+    cursor: 'not-allowed';
+}
+.checkbox-block .icheck-primary {
+    display: block !important;
+}
+.btn-copy-callback {
+    margin: 0 0 2px 10px;
+}
+.card-header__filter {
+    display: block;
+    margin-top: 10px;
+}
+.card-header__filter form .filter-block{
+    margin-top: 10px;
+    display: flex;
+}
+.card-header__filter form .filter-item-field,  .card-header__filter form button {
+    margin-right: 10px;
+}
+.card-header__filter form button i{
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+.paging_simple_numbers .pagination .first {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+.app-logo {
+    width: 25px;
+}
+.app-name {
+    position: relative;
+    margin-left: 0 !important;
+    left: 8px;
+    top: 3px;
+}
