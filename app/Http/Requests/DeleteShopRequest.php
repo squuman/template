@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class SettingPostRequest extends FormRequest
+class DeleteShopRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,8 +24,7 @@ class SettingPostRequest extends FormRequest
     public function rules()
     {
         return [
-            'retail_api_url' => 'required|url',
-            'retail_api_key' => 'required'
+            //
         ];
     }
 }

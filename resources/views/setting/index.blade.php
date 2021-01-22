@@ -21,7 +21,6 @@
                 </li>
             </ul>
 
-            <form action="setting/store" method="post">
                 <div class="tab-content">
                     <div class="tab-pane active" id="module" role="tabpanel">
                         <div class="row">
@@ -40,14 +39,7 @@
                     </div>
                 </div>
 
-                <div class="text-right">
-                    <button type="submit" class="btn btn-success pull-right btn-submit"><i class="far fa-save"></i>
-                        Сохранить
-                    </button>
-                    <button class="btn btn-primary pull-right btn-submit"><i class="fas fa-sync"></i>Обновить настройки
-                    </button>
-                </div>
-            </form>
+
         </div>
     </div>
 @endsection
